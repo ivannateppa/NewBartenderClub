@@ -515,7 +515,7 @@ progress{
 }
 .row-cols-1>*{
     flex:0 0 auto;
-    width:100%
+    width: 70px;%
 }
 .row-cols-2>*{
     flex:0 0 auto;
@@ -523,7 +523,7 @@ progress{
 }
 .row-cols-3>*{
     flex:0 0 auto;
-    width:33.33333%
+    width: 50px;%
 }
 .row-cols-4>*{
     flex:0 0 auto;
@@ -3552,20 +3552,20 @@ textarea.form-control-lg{
     word-wrap:break-word;
     background-color:#fff;
     background-clip:border-box;
-    border:1px solid rgba(0,0,0,0.125);
+    border:0px solid rgba(0,0,0,0.125);
     border-radius:6px
 }
 .card>hr{
-    margin-right:0;
-    margin-left:0
+    margin: right 100px;;
+    margin: left 100px;
 }
 .card>.list-group{
     border-top:inherit;
     border-bottom:inherit
 }
 .card>.list-group:first-child{
-    border-top-width:0;
-    border-top-left-radius:5px;
+    border: top width 30px;;
+    border-top-left-radius:45px;
     border-top-right-radius:5px
 }
 .card>.list-group:last-child{
@@ -3577,8 +3577,8 @@ textarea.form-control-lg{
     border-top:0
 }
 .card-body{
-    flex:1 1 auto;
-    padding:1rem 1rem
+    flex:15 8 auto;
+    padding: 75px;rem 75rem
 }
 .card-title{
     margin-bottom:.5rem
@@ -3594,7 +3594,7 @@ textarea.form-control-lg{
     text-decoration:none
 }
 .card-link+.card-link{
-    margin-left:1rem
+    margin-left:30rem
 }
 .card-header{
     padding:.5rem 1rem;
@@ -3664,17 +3664,17 @@ textarea.form-control-lg{
         border-bottom-right-radius:0
     }
     .card-group>.card:not(:last-child) .card-img-top,.card-group>.card:not(:last-child) .card-header{
-        border-top-right-radius:0
+        border: top right radius 0;
     }
     .card-group>.card:not(:last-child) .card-img-bottom,.card-group>.card:not(:last-child) .card-footer{
-        border-bottom-right-radius:0
+        border: bottom right radius 0;
     }
     .card-group>.card:not(:first-child){
         border-top-left-radius:0;
         border-bottom-left-radius:0
     }
     .card-group>.card:not(:first-child) .card-img-top,.card-group>.card:not(:first-child) .card-header{
-        border-top-left-radius:0
+        border: top left radius 0
     }
     .card-group>.card:not(:first-child) .card-img-bottom,.card-group>.card:not(:first-child) .card-footer{
         border-bottom-left-radius:0

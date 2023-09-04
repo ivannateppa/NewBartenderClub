@@ -4,7 +4,20 @@
     --secondary: #402256;
     --light: #E4D3E9;
     --dark: #A882B7; 
-    --Orange: #F6A13B 
+}
+
+.mi-seccion {
+    background-color: #F6A13B; /* Color de fondo de la sección */
+    padding: 100px 100px; /* Espacio de relleno en la parte superior e inferior y en los lados de la sección */
+}
+
+.mi-seccion-2 {
+    background-color: #ffffff; /* Color de fondo de la sección */
+    padding: 60px 20px; /* Espacio de relleno en la parte superior e inferior y en los lados de la sección */
+}
+
+.titulo-seccion {
+    margin-top: 20px; /* Agrega un margen superior al título */
 }
 
 h1{
