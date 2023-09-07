@@ -11,11 +11,6 @@
     padding: 100px 100px; /* Espacio de relleno en la parte superior e inferior y en los lados de la sección */
 }
 
-.fondo.rosita {
-    background-color: #F2C0B6; /* Color de fondo de la sección */
-    padding: 100px 100px; /* Espacio de relleno en la parte superior e inferior y en los lados de la sección */
-}
-
 .Fondo.Gris {
     background-color: #EFEFEF; /* Color de fondo de la sección */
     padding: 100px 100px; /* Espacio de relleno en la parte superior e inferior y en los lados de la sección */
@@ -39,6 +34,11 @@ EFEFEF
 
 h1{
     color: #402256; 
+    margin-top:0;
+    margin-bottom:.5rem;
+    font-family:"Gelasio",serif;
+    font-weight:700;
+    line-height:1.2;
 }
 h3{
     color: #402256;
