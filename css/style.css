@@ -11,6 +11,18 @@
     padding: 100px 100px; /* Espacio de relleno en la parte superior e inferior y en los lados de la sección */
 }
 
+.fondo.rosita {
+    background-color: #F2C0B6; /* Color de fondo de la sección */
+    padding: 100px 100px; /* Espacio de relleno en la parte superior e inferior y en los lados de la sección */
+}
+
+.Fondo.Gris {
+    background-color: #EFEFEF; /* Color de fondo de la sección */
+    padding: 100px 100px; /* Espacio de relleno en la parte superior e inferior y en los lados de la sección */
+}
+
+EFEFEF
+
 .logo {
     width: 100px; /* Ancho deseado para el logo en píxeles */
     height: auto; /* Esto permite que la altura se ajuste automáticamente para mantener la proporción */
