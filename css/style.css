@@ -22,7 +22,12 @@
 
 .mi-seccion {
     background-color: #F2C0B6; /* Color de fondo de la sección */
-    padding: 100px 0px; /* Espacio de relleno en la parte superior e inferior y en los lados de la sección */
+    padding: 50px 0px; /* Espacio de relleno en la parte superior e inferior y en los lados de la sección */
+}
+
+.mi-seccion-2 {
+    background-color: #F2C0B6; /* Color de fondo de la sección */
+    padding: 0px 0px; /* Espacio de relleno en la parte superior e inferior y en los lados de la sección */
 }
 
 .Fondo.Gris {
