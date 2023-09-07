@@ -6,6 +6,20 @@
     --dark: #A882B7; 
 }
 
+/* Estilos para la sección de logos */
+.logos-section {
+    display: flex; /* Para alinear los logos en línea */
+    justify-content: space-around; /* Espaciado uniforme entre los logos */
+    padding: 20px; /* Espaciado interior opcional */
+    background-color: #402256; /* Color de fondo de la sección */
+}
+
+/* Estilos para cada logo */
+.logo {
+    width: 100px; /* Ancho deseado para cada logo */
+    height: auto; /* Esto permite que la altura se ajuste automáticamente para mantener la proporción */
+}
+
 .mi-seccion {
     background-color: #F2C0B6; /* Color de fondo de la sección */
     padding: 100px 100px; /* Espacio de relleno en la parte superior e inferior y en los lados de la sección */
