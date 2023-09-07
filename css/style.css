@@ -11,6 +11,11 @@
     padding: 100px 100px; /* Espacio de relleno en la parte superior e inferior y en los lados de la sección */
 }
 
+.logo {
+    width: 100px; /* Ancho deseado para el logo en píxeles */
+    height: auto; /* Esto permite que la altura se ajuste automáticamente para mantener la proporción */
+}
+
 .mi-seccion-2 {
     background-color: #ffffff; /* Color de fondo de la sección */
     padding: 60px 20px; /* Espacio de relleno en la parte superior e inferior y en los lados de la sección */
