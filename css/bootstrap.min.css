@@ -3482,10 +3482,10 @@ textarea.form-control-lg{
     display:none
 }
 .navbar-light .navbar-brand{
-    color:rgba(0,0,0,0.9)
+    color:#FDEBE9
 }
 .navbar-light .navbar-brand:hover,.navbar-light .navbar-brand:focus{
-    color:rgba(0,0,0,0.9)
+    color:#FDEBE9
 }
 .navbar-light .navbar-nav .nav-link{
     color:rgba(0,0,0,0.55)
@@ -6350,7 +6350,10 @@ textarea.form-control-lg{
     background-color:#F4A090 !important
 }
 .bg-dark{
-    background-color:#1E1916 !important
+    background-color:#402256 !important
+}
+.bg-rose{
+    background-color:#FDEBE9 !important
 }
 .bg-body{
     background-color:#fff !important
