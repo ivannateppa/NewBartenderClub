@@ -1,9 +1,9 @@
 /********** Template CSS **********/
 :root {
-    --primary: #764f82;
-    --secondary: #402256;
-    --light: #E4D3E9;
-    --dark: #A882B7; 
+    --primary: #F4A090;
+    --secondary: #F4A090;
+    --light: #FDEBE9;
+    --dark: #402256; 
 }
 
 /* Estilos para la sección de logos */
@@ -12,6 +12,10 @@
     justify-content: space-around; /* Espaciado uniforme entre los logos */
     padding: 20px; /* Espaciado interior opcional */
     background-color: #402256; /* Color de fondo de la sección */
+}
+
+.rosa{
+    color: #F4A090; 
 }
 
 .imagen-grupo-centrada {
@@ -80,7 +84,12 @@ font-family:"Gelasio Bold",serif;
 }
 
 h6,
-.h4,
+
+.h4{
+color:#E9512A;
+font-family:"Gelasio Bold",serif;
+}
+
 .h5,
 .h6 {
     font-weight: 600 !important;
@@ -160,7 +169,7 @@ h6,
 .navbar .dropdown-toggle::after {
     border: none;
     content: "\f107";
-    font-family: "Font Awesome 5 Free";
+    font-family: "Source Sans Variable"; "Sans-serif"
     font-weight: 900;
     vertical-align: middle;
     margin-left: 8px;
@@ -168,13 +177,13 @@ h6,
 
 .navbar .navbar-nav .nav-link {
     padding: 35px 15px;
-    color: #402256;
+    color: #0B7767;
     outline: none;
 }
 
 .navbar .navbar-nav .nav-link:hover,
 .navbar .navbar-nav .nav-link.active {
-    color: #A882B7;
+    color: #E9512A;
 }
 
 .navbar.fixed-top {
@@ -185,7 +194,7 @@ h6,
     .navbar .navbar-nav {
         margin-top: 10px;
         border-top: 1px solid rgba(255, 255, 255, .3);
-        background: var(--dark);
+        background: var(--light);
     }
 
     .navbar .navbar-nav .nav-link {
@@ -322,7 +331,7 @@ h6,
 }
 
 .product-item:hover {
-    background: var(--primary) !important;
+    background: var(--dark) !important;
 }
 
 .product-item:hover * {
@@ -342,7 +351,7 @@ h6,
     display: flex;
     align-items: center;
     justify-content: center;
-    background: rgba(0, 0, 0, .5);
+    background: rgba(0, 0, 0, 0);
     overflow: hidden;
     opacity: 0;
     transition: .5s;
@@ -463,7 +472,7 @@ h6,
 .footer .btn.btn-link::before {
     position: relative;
     content: "\f105";
-    font-family: "Font Awesome 5 Free";
+    font-family: "Source Sans Variable";
     font-weight: 900;
     color: var(--light);
     margin-right: 10px;

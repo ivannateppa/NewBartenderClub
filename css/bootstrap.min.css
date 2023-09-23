@@ -2,7 +2,7 @@
 :root{
     --bs-blue: #0d6efd;
     --bs-indigo: #6610f2;
-    --bs-purple: #6f42c1;
+    --bs-purple: #FDEBE9;
     --bs-pink: #d63384;
     --bs-red: #dc3545;
     --bs-orange: #fd7e14;
@@ -6275,7 +6275,7 @@ textarea.form-control-lg{
     word-break:break-word !important
 }
 .text-primary{
-    color: #A882B7; !important
+    color: #F4A090; !important
 }
 .text-secondary{
     color:#545454 !important
