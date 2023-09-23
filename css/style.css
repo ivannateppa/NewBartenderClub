@@ -14,6 +14,12 @@
     background-color: #402256; /* Color de fondo de la sección */
 }
 
+.imagen-grupo-centrada {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /* Estilos para cada logo */
 .logo {
     width: 100px; /* Ancho deseado para cada logo */
