@@ -35,7 +35,10 @@
     padding: 100px 100px; /* Espacio de relleno en la parte superior e inferior y en los lados de la sección */
 }
 
-EFEFEF
+.Fondo.Rosa.Nuevo {
+    background-color: #FDEBE9 
+    padding: 100px 100px;
+}
 
 .logo {
     width: 100px; /* Ancho deseado para el logo en píxeles */
@@ -66,8 +69,8 @@ h4{
     color: #402256;
 }
 h5{
-color:#402256;
-font-family:"Gelasio",serif;
+color:#E9512A;
+font-family:"Gelasio Bold",serif;
 }
 
 h6,
