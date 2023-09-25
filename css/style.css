@@ -9,18 +9,21 @@
 /* Estilos para la versión de escritorio (pantalla ancha) */
 #imagen {
     width: 100%; /* Ajusta el ancho del contenedor */
-    height: 100%px; /* Ajusta la altura según tus necesidades */
+    height: 100px; /* Ajusta la altura según tus necesidades */
     background-image: url('https://scontent.faep24-1.fna.fbcdn.net/v/t39.30808-6/381264806_10220304178988268_8622902694844113473_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=49d041&_nc_ohc=e9oX1z_zekEAX-KKTyX&_nc_ht=scontent.faep24-1.fna&oh=00_AfANr57auvR0Er-ImLShO6LRMvLznlAnTwJrOlTjAhqEfA&oe=65171A4F'); /* Establece la imagen de escritorio como fondo */
-    background-size: cover; /* Ajusta el tamaño del fondo */
-  }
-  
- /* Estilos para la versión móvil (pantalla estrecha) */
+    background-size: contain; /* Ajusta el tamaño del fondo para que se ajuste sin cortar */
+    background-repeat: no-repeat; /* Evita la repetición de la imagen de fondo */
+    margin-bottom: 0; /* Elimina el margen inferior en la versión de escritorio */
+}
+
+/* Estilos para la versión móvil (pantalla estrecha) */
 @media screen and (max-width: 768px) {
     #imagen {
-      content: url('https://scontent.faep24-2.fna.fbcdn.net/v/t39.30808-6/381009591_10220304189668535_7799659677249008713_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=49d041&_nc_ohc=3TsG8fMJQaIAX_cLJ_h&_nc_ht=scontent.faep24-2.fna&oh=00_AfChNE1pL4uBrwURE7fD7crSPoQPZECj_r90_Xov0sJ_oA&oe=6515F961'); /* Reemplaza la imagen por la versión móvil */
-      /* Puedes agregar estilos adicionales aquí, como cambiar el tamaño o el margen */
+        background-image: url('https://scontent.faep24-2.fna.fbcdn.net/v/t39.30808-6/381009591_10220304189668535_7799659677249008713_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=49d041&_nc_ohc=3TsG8fMJQaIAX_cLJ_h&_nc_ht=scontent.faep24-2.fna&oh=00_AfChNE1pL4uBrwURE7fD7crSPoQPZECj_r90_Xov0sJ_oA&oe=6515F961'); /* Cambia la imagen de fondo por la versión móvil */
+        /* Puedes agregar estilos adicionales aquí, como cambiar el tamaño o el margen */
+        margin-bottom: 0; /* Elimina el margen inferior en la versión móvil */
     }
-  }
+}
 
 /* Estilos para los contenedores de logos */
 .logo {
@@ -113,6 +116,7 @@ h3{
 }
 h4{
     color: #402256;
+    font-family:"Gelasio","Serif"
 }
 h5{
 color:#E9512A;
@@ -510,12 +514,12 @@ font-family:"Gelasio Bold",serif;
     content: "\f105";
     font-family: "Source Sans Variable";
     font-weight: 900;
-    color: var(--light);
+    color:#0E7867;
     margin-right: 10px;
 }
 
 .footer .btn.btn-link:hover {
-    color: var(--primary);
+    color: #F4A090;
     letter-spacing: 1px;
     box-shadow: none;
 }
@@ -525,9 +529,9 @@ font-family:"Gelasio Bold",serif;
 }
 
 .copyright a {
-    color: var(--primary);
+    color:#ffffff;
 }
 
 .copyright a:hover {
-    color: var(--light);
+    color: #F4A090;
 }
