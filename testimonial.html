@@ -106,68 +106,142 @@
     </div>
 </div>
 <!-- Caja end -->
-<!-- Como funciona Start -->
-<div class="bg-rose">
-    <div class="container py-6">
-        <div class="container">
-            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
-                <h1 class="display-6 mb-4">Todo para crear tus sabores</h1>
-            </div>
-            <div class="row g-4">
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="team-item text-center rounded">
-                        <img class="card-img" src="img/Ingrediente-1-01.png" alt="">
-                        <h5 class="mb-3">Botella</h5>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="team-item text-center rounded">
-                        <img class="card-img" src="img/Ingrediente-2-01.png" alt="">
-                        <h5 class="mb-3">Vaso</h5>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="team-item text-center rounded">
-                        <img class="card-img" src="img/Ingrediente-3-01.png" alt="">
-                        <h5 class="mb-3">Botánicos</h5>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="team-item text-center rounded">
-                        <img class="card-img" src="img/Ingrediente-4-01.png" alt="">
-                        <h5 class="mb-3">Frutas disecadas</h5>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="team-item text-center rounded">
-                        <img class="card-img" src="img/Ingrediente-5-01.png" alt="">
-                        <h5 class="mb-3">Herramienta</h5>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="team-item text-center rounded">
-                        <img class="card-img" src="img/Ingrediente-6-01.png" alt="">
-                        <h5 class="mb-3">Receta</h5>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="team-item text-center rounded">
-                        <img class="card-img" src="img/Ingrediente-7-01.png" alt="">
-                        <h5 class="mb-3">Lata</h5>
 
+<!-- Como funciona + Carrusel Start -->
+    <div class="bg-rose">
+        <div class="container py-6">
+            <div class="container">
+                <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+                    <h1 class="display-6 mb-4">Todo para crear tus sabores</h1>
+                </div>
+                <!-- Carrusel en versión móvil -->
+                <div class="d-block d-md-none">
+                    <div id="saboresCarousel" class="carousel slide" data-ride="carousel">
+                        <!-- Carrusel de ingredientes -->
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="team-item text-center rounded">
+                                    <img class="card-img" src="img/Ingrediente-1-01.png" alt="">
+                                    <h5 class="mb-3">Botella</h5>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="team-item text-center rounded">
+                                    <img class="card-img" src="img/Ingrediente-2-01.png" alt="">
+                                    <h5 class="mb-3">Vaso</h5>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="team-item text-center rounded">
+                                    <img class="card-img" src="img/Ingrediente-3-01.png" alt="">
+                                    <h5 class="mb-3">Botánicos</h5>
+                                </div>
+                            </div>
+                            <!-- Agrega más elementos de carrusel según tus necesidades -->
+                            <div class="carousel-item">
+                                <div class="team-item text-center rounded">
+                                    <img class="card-img" src="img/Ingrediente-4-01.png" alt="">
+                                    <h5 class="mb-3">Frutas disecadas</h5>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="team-item text-center rounded">
+                                    <img class="card-img" src="img/Ingrediente-5-01.png" alt="">
+                                    <h5 class="mb-3">Herramienta</h5>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="team-item text-center rounded">
+                                    <img class="card-img" src="img/Ingrediente-6-01.png" alt="">
+                                    <h5 class="mb-3">Receta</h5>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="team-item text-center rounded">
+                                    <img class="card-img" src="img/Ingrediente-7-01.png" alt="">
+                                    <h5 class="mb-3">Lata</h5>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="team-item text-center rounded">
+                                    <img class="card-img" src="img/Ingrediente-8-01.png" alt="">
+                                    <h5 class="mb-3">Pickles</h5>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <!-- Controles del carrusel -->
+                        <a class="carousel-control-prev" href="#saboresCarousel" data-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </a>
+                        <a class="carousel-control-next" href="#saboresCarousel" data-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </a>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="team-item text-center rounded">
-                        <img class="card-img" src="img/Ingrediente-8-01.png" alt="">
-                        <h5 class="mb-3">Pickles</h5>
+    
+                <!-- Logos en dispositivos de escritorio -->
+                <div class="row g-4 d-none d-md-flex">
+                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="team-item text-center rounded">
+                            <img class="card-img" src="img/Ingrediente-1-01.png" alt="">
+                            <h5 class="mb-3">Botella</h5>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="team-item text-center rounded">
+                            <img class="card-img" src="img/Ingrediente-2-01.png" alt="">
+                            <h5 class="mb-3">Vaso</h5>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="team-item text-center rounded">
+                            <img class="card-img" src="img/Ingrediente-3-01.png" alt="">
+                            <h5 class="mb-3">Botánicos</h5>
+                        </div>
+                    </div>
+                    <!-- Agrega más elementos de logotipos según tus necesidades -->
+                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="team-item text-center rounded">
+                            <img class="card-img" src="img/Ingrediente-4-01.png" alt="">
+                            <h5 class="mb-3">Frutas disecadas</h5>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="team-item text-center rounded">
+                            <img class="card-img" src="img/Ingrediente-5-01.png" alt="">
+                            <h5 class="mb-3">Herramienta</h5>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="team-item text-center rounded">
+                            <img class="card-img" src="img/Ingrediente-6-01.png" alt="">
+                            <h5 class="mb-3">Receta</h5>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="team-item text-center rounded">
+                            <img class="card-img" src="img/Ingrediente-7-01.png" alt="">
+                            <h5 class="mb-3">Lata</h5>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="team-item text-center rounded">
+                            <img class="card-img" src="img/Ingrediente-8-01.png" alt="">
+                            <h5 class="mb-3">Pickles</h5>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    </div>
-    <!-- Como funciona End -->
+    
+    <!-- Incluir Bootstrap CSS y JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Como funciona + Carrusel End -->
+
     <!-- Product Start -->
     <div class="bg-lila my-0 py-6 pt-0">
         <div class="container">
