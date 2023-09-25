@@ -6,6 +6,25 @@
     --dark: #402256; 
 }
 
+/* Estilos para los logos en dispositivos de escritorio */
+@media (min-width: 768px) {
+    .logo img {
+        max-width: 100%;
+        height: auto;
+        /* Ajusta el tamaño de los logos en dispositivos de escritorio aquí */
+        width: 150px; /* Cambia este valor según tus necesidades */
+    }
+}
+
+/* Estilos para los logos en dispositivos móviles */
+@media (max-width: 767px) {
+    .logo img {
+        max-width: 100%;
+        height: auto;
+        /* Ajusta el tamaño de los logos en dispositivos móviles aquí */
+        width: 100px; /* Cambia este valor según tus necesidades */
+    }
+}
 
 /* Estilos para la sección de logos */
 .logos-section {
