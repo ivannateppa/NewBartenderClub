@@ -123,45 +123,98 @@ las mejores recetas de tragos con ingredientes seleccionados.</p>
 
 <!-- Como funciona Start -->
 <div class="bg-rose">
-<div class="container py-6">
-    <div class="container">
-        <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
-            <h1 class="display-6 mb-4">En sólo 4 simples pasos</h1>
-        </div>
-        <div class="row g-4">
-            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                <div class="team-item text-center rounded">
-                    <img class="card-img" src="img/Como funciona 1-01.png" alt="">
-                    <h5 class="mb-3">Seleccioná tu plan</h5>
-                    <span>Elegí el plan que más se ajuste a tus objetivos</span>
+    <div class="container py-6">
+        <div class="container">
+            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+                <h1 class="display-6 mb-4">En sólo 4 simples pasos</h1>
+            </div>
+            
+            <!-- Carrusel en versión móvil -->
+            <div class="d-block d-md-none">
+                <div id="comoFuncionaCarousel" class="carousel slide" data-ride="carousel">
+                    <!-- Carrusel de imágenes -->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="team-item text-center rounded">
+                                <img class="card-img" src="img/Como funciona 1-01.png" alt="">
+                                <h5 class="mb-3">Seleccioná tu plan</h5>
+                                <span>Elegí el plan que más se ajuste a tus objetivos</span>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="team-item text-center rounded">
+                                <img class="card-img" src="img/Como funciona 2-01.png" alt="">
+                                <h5 class="mb-3">Armamos tu box</h5>
+                                <span>Hacemos una selección premium de la materia prima</span>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="team-item text-center rounded">
+                                <img class="card-img" src="img/Como funciona 3-01.png" alt="">
+                                <h5 class="mb-3">Llega a tu casa</h5>
+                                <span>El primer día del mes, la box va a estar tocando tu puerta</span>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="team-item text-center rounded">
+                                <img class="card-img" src="img/Como funciona 4-01.png" alt="">
+                                <h5 class="mb-3">Creá tu propio sabor</h5>
+                                <span>Sorprendete con el trago del mes y créalo con tus manos</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Controles del carrusel -->
+                    <a class="carousel-control-prev" href="#comoFuncionaCarousel" data-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#comoFuncionaCarousel" data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </a>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                <div class="team-item text-center rounded">
-                    <img class="card-img" src="img/Como funciona 2-01.png" alt="">
-                    <h5 class="mb-3">Armamos tu box</h5>
-                    <span>Hacemos una seleección premium de la  materia prima</span>
+
+            <!-- Imágenes en dispositivos de escritorio -->
+            <div class="row g-4 d-none d-md-flex">
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="team-item text-center rounded">
+                        <img class="card-img" src="img/Como funciona 1-01.png" alt="">
+                        <h5 class="mb-3">Seleccioná tu plan</h5>
+                        <span>Elegí el plan que más se ajuste a tus objetivos</span>
+                    </div>
                 </div>
-            </div>
-            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                <div class="team-item text-center rounded">
-                    <img class="card-img" src="img/Como funciona 3-01.png" alt="">
-                    <h5 class="mb-3">Llega a tu casa</h5>
-                    <span>El primer dia del mes, la box va a estar tocando tu puerta</span>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="team-item text-center rounded">
+                        <img class="card-img" src="img/Como funciona 2-01.png" alt="">
+                        <h5 class="mb-3">Armamos tu box</h5>
+                        <span>Hacemos una selección premium de la materia prima</span>
+                    </div>
                 </div>
-            </div>
-            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                <div class="team-item text-center rounded">
-                    <img class="card-img" src="img/Como funciona 4-01.png" alt="">
-                    <h5 class="mb-3">Creá tu propio sabor</h5>
-                    <span>Sorprendete con el trago del mes y crealo con tus manos</span>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="team-item text-center rounded">
+                        <img class="card-img" src="img/Como funciona 3-01.png" alt="">
+                        <h5 class="mb-3">Llega a tu casa</h5>
+                        <span>El primer día del mes, la box va a estar tocando tu puerta</span>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="team-item text-center rounded">
+                        <img class="card-img" src="img/Como funciona 4-01.png" alt="">
+                        <h5 class="mb-3">Creá tu propio sabor</h5>
+                        <span>Sorprendete con el trago del mes y créalo con tus manos</span>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
-</div>
+
+<!-- Incluir Bootstrap CSS y JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 <!-- Como funciona End -->
+
 
 <!-- Cual es tu sabor Start -->
 <div class="bg-rose">
