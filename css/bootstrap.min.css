@@ -2278,6 +2278,24 @@ textarea.form-control-lg{
 .was-validated .input-group .form-control:invalid,.input-group .form-control.is-invalid,.was-validated .input-group .form-select:invalid,.input-group .form-select.is-invalid{
     z-index:3
 }
+
+.btn-2 {
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #545454;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: .375rem .75rem; /* Reduce el valor de padding para hacerlo más delgado */
+    font-size: 1rem;
+    border-radius: 3px; /* Reduce el valor de border-radius para hacerlo más delgado */
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
 .btn{
     display:inline-block;
     font-weight:400;
