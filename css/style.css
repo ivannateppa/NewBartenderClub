@@ -6,22 +6,28 @@
     --dark: #402256; 
 }
 
-/* Estilos para la versión de escritorio (pantalla ancha) */
-#imagen {
-    width: 100%; /* Ajusta el ancho del contenedor */
-    background-image: url('https://scontent.faep24-1.fna.fbcdn.net/v/t39.30808-6/381264806_10220304178988268_8622902694844113473_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=49d041&_nc_ohc=e9oX1z_zekEAX-KKTyX&_nc_ht=scontent.faep24-1.fna&oh=00_AfANr57auvR0Er-ImLShO6LRMvLznlAnTwJrOlTjAhqEfA&oe=65171A4F'); /* Establece la imagen de escritorio como fondo */
-    background-size: contain; /* Ajusta el tamaño del fondo para que se ajuste sin cortar */
-    background-repeat: no-repeat; /* Evita la repetición de la imagen de fondo */
-    margin-bottom: 0; /* Elimina el margen inferior en la versión de escritorio */
+/* Estilos para la imagen en pantallas grandes */
+.imagen-grupo-centrada {
+    max-width: 100%; /* Asegura que la imagen no supere el ancho del contenedor padre */
+    height: auto; /* Ajusta la altura automáticamente para mantener la proporción */
+    display: block; /* Elimina cualquier espacio adicional debajo de la imagen */
+    margin: 0 auto; /* Centra horizontalmente la imagen en el contenedor */
 }
 
-/* Estilos para la versión móvil (pantalla estrecha) */
+/* Estilos para la imagen en pantallas pequeñas (dispositivos móviles) */
 @media screen and (max-width: 768px) {
-    #imagen {
-        background-image: url('https://scontent.faep24-2.fna.fbcdn.net/v/t39.30808-6/381009591_10220304189668535_7799659677249008713_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=49d041&_nc_ohc=3TsG8fMJQaIAX_cLJ_h&_nc_ht=scontent.faep24-2.fna&oh=00_AfChNE1pL4uBrwURE7fD7crSPoQPZECj_r90_Xov0sJ_oA&oe=6515F961'); /* Cambia la imagen de fondo por la versión móvil */
-        /* Puedes agregar estilos adicionales aquí, como cambiar el tamaño o el margen */
-        margin-bottom: 0; /* Elimina el margen inferior en la versión móvil */
+    .imagen-grupo-centrada {
+        max-width: 100%; /* Asegura que la imagen se ajuste al ancho de la pantalla en dispositivos móviles */
     }
+}
+
+
+#imagen-frase {
+	width: 100%;
+	background-image: url('https://scontent.faep24-1.fna.fbcdn.net/v/t39.30808-6/380896331_10220305331337076_4318319465607232586_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=49d041&_nc_ohc=fNGyZMeVdS8AX-tlXx1&_nc_ht=scontent.faep24-1.fna&oh=00_AfBFMw7vgsy1JoBFPDksOyqXcmMSil2jZ_VnAei8MzREHw&oe=6517759F');
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin-bottom: 0;
 }
 
 /* Estilos para los contenedores de logos */
@@ -114,8 +120,9 @@ h3{
     color: #402256;
 }
 h4{
-    color: #402256;
-    font-family:"Gelasio","Serif"
+    text-align: center; /* Centra el texto horizontalmente */
+    padding: 20px; /* Agrega padding horizontal (ajusta el valor según tus necesidades) */
+    font-family:"Gelasio",serif;
 }
 h5{
 color:#E9512A;
@@ -123,11 +130,6 @@ font-family:"Gelasio Bold",serif;
 }
 
 h6,
-
-.h4{
-color:#E9512A;
-font-family:"Gelasio Bold",serif;
-}
 
 .h5,
 .h6 {
