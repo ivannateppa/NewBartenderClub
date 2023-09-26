@@ -121,8 +121,8 @@ h3{
 }
 h4{
     text-align: center; /* Centra el texto horizontalmente */
-    padding: 20px; /* Agrega padding horizontal (ajusta el valor según tus necesidades) */
     font-family:"Gelasio",serif;
+    color: #402256;
 }
 h5{
 color:#E9512A;
