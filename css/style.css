@@ -9,7 +9,6 @@
 /* Estilos para la versión de escritorio (pantalla ancha) */
 #imagen {
     width: 100%; /* Ajusta el ancho del contenedor */
-    height: 100px; /* Ajusta la altura según tus necesidades */
     background-image: url('https://scontent.faep24-1.fna.fbcdn.net/v/t39.30808-6/381264806_10220304178988268_8622902694844113473_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=49d041&_nc_ohc=e9oX1z_zekEAX-KKTyX&_nc_ht=scontent.faep24-1.fna&oh=00_AfANr57auvR0Er-ImLShO6LRMvLznlAnTwJrOlTjAhqEfA&oe=65171A4F'); /* Establece la imagen de escritorio como fondo */
     background-size: contain; /* Ajusta el tamaño del fondo para que se ajuste sin cortar */
     background-repeat: no-repeat; /* Evita la repetición de la imagen de fondo */
