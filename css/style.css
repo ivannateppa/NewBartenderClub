@@ -124,6 +124,13 @@ h4{
     font-family:"Gelasio",serif;
     color: #402256;
 }
+
+.footer-titulo{
+    font-family:"Gelasio",serif;
+    color: #F4A090;
+    text-align:start !important
+}
+
 h5{
 color:#E9512A;
 font-family:"Gelasio Bold",serif;
