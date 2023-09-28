@@ -4142,11 +4142,7 @@ textarea.form-control-lg{
         margin-left:-1px;
         border-left-width:1px
     }
-    .nav-bar{
-        display: flex;
-        width: 100%;
-        justify-content: space-between;
-    }
+
 }
 @media (min-width: 768px){
     .list-group-horizontal-md{
