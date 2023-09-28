@@ -23,14 +23,20 @@
 
 
 .fondo-boxes {
-    background-image: url('https://scontent.faep24-1.fna.fbcdn.net/v/t39.30808-6/382341151_10220325130312038_7931528548527760336_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=49d041&_nc_ohc=MEp2KJyfaEQAX8-ynxL&_nc_ht=scontent.faep24-1.fna&oh=00_AfA-fymu9qPIa7O9Q14AnOfldIRsa3ia-wIvspUPc4qn1g&oe=651A197C');
-    background-size: 100%; /* Ajusta la imagen para que cubra toda la sección */
+    background-image: url('../img/Fondo-Boxes_Mesa\ de\ trabajo\ 1.jpg');
+    background-size:cover ; /* Ajusta la imagen para que cubra toda la sección */
+    background-repeat: no-repeat; /* Evita la repetición de la imagen */
+}
+
+.fondo-galeria {
+    background-image: url('../img/Fondo-Galeria_Mesa\ de\ trabajo\ 1.jpg');
+    background-size: cover; /* Ajusta la imagen para que cubra toda la sección */
     background-repeat: no-repeat; /* Evita la repetición de la imagen */
 }
 
 #imagen-frase {
 	width: 100%;
-	background-image: url('https://scontent.faep24-1.fna.fbcdn.net/v/t39.30808-6/380896331_10220305331337076_4318319465607232586_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=49d041&_nc_ohc=fNGyZMeVdS8AX-tlXx1&_nc_ht=scontent.faep24-1.fna&oh=00_AfBFMw7vgsy1JoBFPDksOyqXcmMSil2jZ_VnAei8MzREHw&oe=6517759F');
+	background-image: url('../img/Fondo-Frase-01.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 	margin-bottom: 0;  
