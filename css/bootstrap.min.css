@@ -3519,26 +3519,26 @@ textarea.form-control-lg{
     color:rgba(0,0,0,0.9)
 }
 .navbar-dark .navbar-brand{
-    color:#fff
+    color:#0E7867
 }
 .navbar-dark .navbar-brand:hover,.navbar-dark .navbar-brand:focus{
     color:#fff
 }
 .navbar-dark .navbar-nav .nav-link{
-    color:rgba(255,255,255,0.55)
+    color:rgb(255, 203, 203)
 }
 .navbar-dark .navbar-nav .nav-link:hover,.navbar-dark .navbar-nav .nav-link:focus{
     color:rgba(255,255,255,0.75)
 }
 .navbar-dark .navbar-nav .nav-link.disabled{
-    color:rgba(255,255,255,0.25)
+    color:#0E7867
 }
 .navbar-dark .navbar-nav .show>.nav-link,.navbar-dark .navbar-nav .nav-link.active{
     color:#fff
 }
 .navbar-dark .navbar-toggler{
-    color:rgba(255,255,255,0.55);
-    border-color:rgba(255,255,255,0.1)
+    color:#0E7867;
+    border-color:#0E7867
 }
 .navbar-dark .navbar-toggler-icon{
     background-image:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255,255,255,0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e")
@@ -3547,7 +3547,7 @@ textarea.form-control-lg{
     color:rgba(255,255,255,0.55)
 }
 .navbar-dark .navbar-text a,.navbar-dark .navbar-text a:hover,.navbar-dark .navbar-text a:focus{
-    color:#fff
+    color:#0E7867
 }
 .card{
     position:relative;
@@ -6357,6 +6357,9 @@ textarea.form-control-lg{
     background-color:#F4A090 !important
 }
 .bg-dark{
+    background-color:#FDEBE9 !important
+}
+.bg-violeta-oscuro{
     background-color:#402256 !important
 }
 .bg-rose{
