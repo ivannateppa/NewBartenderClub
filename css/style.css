@@ -27,7 +27,9 @@
 	background-image: url('https://scontent.faep24-1.fna.fbcdn.net/v/t39.30808-6/380896331_10220305331337076_4318319465607232586_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=49d041&_nc_ohc=fNGyZMeVdS8AX-tlXx1&_nc_ht=scontent.faep24-1.fna&oh=00_AfBFMw7vgsy1JoBFPDksOyqXcmMSil2jZ_VnAei8MzREHw&oe=6517759F');
 	background-size: cover;
 	background-repeat: no-repeat;
-	margin-bottom: 0;    
+	margin-bottom: 0;  
+    padding-left: 15%;
+    padding-right: 15%;
 }
 
 /* Estilos para los contenedores de logos */
@@ -134,11 +136,10 @@ color:#E9512A;
 font-family:"Gelasio Bold",serif;
 }
 
-h6,
-
 .h5,
 .h6 {
-    font-weight: 600 !important;
+    font-weight: 200 !important;
+    font-size:small
 }
 
 .py-6 {
