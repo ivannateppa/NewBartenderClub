@@ -389,7 +389,7 @@ progress{
 }
 @media (min-width: 1200px){
     .display-5{
-        font-size:1.50rem;
+        font-size:2rem;
     }
     
 }
@@ -471,7 +471,7 @@ progress{
 }
 @media (min-width: 576px){
     .container,.container-sm{
-        max-width:540px
+        max-width:540px;
     }
 }
 @media (min-width: 768px){
