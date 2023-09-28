@@ -377,13 +377,13 @@ font-family:"Gelasio Bold",serif;
 
 
 /*** About ***/
-.img-twice::before {
+.img-Costado {
     position: absolute;
     content: "";
     width: 60%;
-    height: 80%;
+    height: 50%;
     top: 10%;
-    left: 20%;
+    left:10%;
     background: white;
     border: 25px white;
     border-radius: 6px;
